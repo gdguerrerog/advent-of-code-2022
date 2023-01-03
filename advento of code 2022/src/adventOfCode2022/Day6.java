@@ -1,3 +1,5 @@
+package adventOfCode2022;
+
 import java.util.List;
 
 public class Day6 extends Day<String> {

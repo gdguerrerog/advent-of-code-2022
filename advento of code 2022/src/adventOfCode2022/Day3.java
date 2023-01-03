@@ -1,8 +1,8 @@
-import java.util.Arrays;
+package adventOfCode2022;
+
 import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
-import java.util.stream.Collectors;
 
 public class Day3 extends Day<List<String>> {
 

@@ -1,3 +1,5 @@
+package adventOfCode2022;
+
 import java.io.File;
 import java.nio.file.Path;
 import java.util.Arrays;
@@ -17,7 +19,7 @@ public abstract class Day<T> {
   public abstract boolean isSolve1();
 
   public File getDayPath() {
-    return Path.of("inputs", "Day" + day).toFile();
+    return Path.of("inputs", "adventOfCode2022.Day" + day).toFile();
   }
 
   public List<File> getFiles() {

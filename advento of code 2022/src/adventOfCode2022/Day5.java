@@ -1,3 +1,5 @@
+package adventOfCode2022;
+
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

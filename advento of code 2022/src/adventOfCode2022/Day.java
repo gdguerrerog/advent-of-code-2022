@@ -19,11 +19,11 @@ public abstract class Day<T> {
   public abstract boolean isSolve1();
 
   public File getDayPath() {
-    return Path.of("inputs", "adventOfCode2022.Day" + day).toFile();
+    return Path.of("inputs", "Day" + day).toFile();
   }
 
   public List<File> getFiles() {
-    return Arrays.stream(getDayPath().listFiles()).filter(File::isFile).collect(Collectors.toList());
+    return Arrays.stream(getDayPath().listFiles()).filter(File::isFile).filter(f -> !f.getName().endsWith(".no")).collect(Collectors.toList());
   }
 
 }

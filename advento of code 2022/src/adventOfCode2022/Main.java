@@ -7,7 +7,7 @@ import java.util.List;
 public class Main {
   public static void main(String[] args) throws Exception {
 
-    var day = new Day11();
+    var day = new Day12();
     for (File f: day.getFiles()) {
       List<String> input = Files.readAllLines(f.toPath());
       System.out.println("########## File: " + f.getName());
